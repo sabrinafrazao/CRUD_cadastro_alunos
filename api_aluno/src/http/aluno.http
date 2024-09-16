@@ -1,0 +1,46 @@
+// Inserir aluno
+POST http://localhost:8080/aluno/create
+Content-Type: application/json
+
+// OBS: É necessário pular uma linha, quando existir um corpo (body) 
+{
+    "matricula": "2022002300",
+    "nome": "Sabrina",
+    "idade": "21",
+    "email": "sabrina@gmail.com"
+ }
+
+
+###
+
+// Listar todos os alunos em ordem alfabética do nome
+GET http://localhost:8080/aluno/list
+Content-Type: application/json
+
+###
+
+// Obter aluno pela matricula
+GET http://localhost:8080/aluno/2022002300
+Content-Type: application/json
+
+###
+
+
+PUT http://localhost:8080/aluno/update/2022002300
+Content-Type: application/json
+
+// OBS: É necessário pular uma linha, quando existir um corpo (body) 
+{
+    "matricula": "2022002300",
+    "nome": "Maria",
+    "idade": "21",
+    "email": "sabrina@gmail.com"
+ }
+###
+
+// Deletar aluno pela matricula
+DELETE http://localhost:8080/aluno/2022002300
+Content-Type: application/json
+
+###
+

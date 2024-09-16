@@ -1,0 +1,81 @@
+body {
+    margin: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-container {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.titulo-container img {
+    width: 60px; 
+    height: auto; 
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+h1 {
+    display: inline; 
+    margin: 0; 
+}
+
+
+.table {
+    background-color: #ffffff; 
+    border: 1px solid #070707; 
+}
+
+.table thead {
+    background-color: #007bff; 
+    color: #ffffff; 
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef; 
+}
+
+
+.btn-secondary {
+    background-color: #007bff; 
+    color: white; 
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3; 
+}
+
+
+#matriculaPesquisa {
+        width: 450px; 
+}
+
+.coluna-acoes {
+    width: 150px; 
+}
+
+.coluna-idade {
+    width: 100px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.notification {
+    display: none; 
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745; 
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+}
+
+
+
+
